@@ -1,3 +1,45 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+/* body{
+    display: flex;
+    flex-direction: column;
+} */
+
+nav div img{
+    object-fit: contain;
+}
+
+.vector-background{
+    position: relative;
+    z-index: 1;
+}
+.carousel{
+    position: relative;
+    z-index: 10;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.images-logo{
+    width: 100%;
+}
+
+body,html{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;  /* IE dan Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
 .form-signin .form-floating:focus-within {
     z-index: 2;
 }
@@ -17,4 +59,56 @@
 .form-registration input {
     border-radius: 0;
     margin-bottom: -1px;
+}
+
+.navbar-brand {
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: flex-end;
+}
+  
+.navbar-brand img {
+    height: 40px;
+    margin: 0 10px;
+}
+
+.nav-link.active {
+    color: blue;
+    text-decoration: underline;
+}
+.container{
+    width: 100vw;
+}
+
+.logo .float-left{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    
+}
+.custom-dropdown-menu {
+    position: absolute;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapse{
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+.show{
+    display: flex;
+    justify-content: left !important; 
+}
+
+.judul{
+    color: white;
+    
 }
